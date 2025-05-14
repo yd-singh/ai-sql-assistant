@@ -1,0 +1,10 @@
+assistants:
+  - name: "SQL Assistant"
+    model: "gpt-4o"
+    instruction_file: "instructions/sql_assistant_instuctions.txt"
+    effort: "high"
+
+  - name: "QReview Assistant"
+    model: "o3-mini"
+    instruction_file: "instructions/qreview_instructions.txt"
+    reasoning: "high"
